@@ -1,0 +1,20 @@
+<script>
+    let a=[
+        {id:1,name:"demo1",email:"demo1@gmail.com"},
+        {id:2,name:"demo2",email:"demo2@gmail.com"},
+        {id:3,name:"demo3",email:"demo3@yahoo.com"},
+        {id:4,name:"demo4",email:"demo4@yahoo.com"},
+        {id:5,name:"demo5",email:"demo5@yahoo.com"},
+        {id:6,name:"demo6",email:"demo6@outlook.com"},
+        {id:7,name:"demo7",email:"demo7@outlook.com"},
+        {id:8,name:"demo8",email:"demo8@outlook.com"},
+    ]
+
+    let b=a.filter(x=>x.email.includes("gmail.com"))
+    let c=a.filter(x=>x.email.includes("yahoo.com"))
+    let d=a.filter(x=>x.email.includes("outlook.com"))
+
+    console.log(b)
+    console.log(c)
+    console.log(d)
+</script>
